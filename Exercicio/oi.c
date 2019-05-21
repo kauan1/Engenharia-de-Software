@@ -14,6 +14,6 @@ int main(){
     return 0;
 }
 
-int som (int x, int y){
-return x+y;
+void som (float a, float b){
+printf ("Resultado = %f", x+y);
 }
