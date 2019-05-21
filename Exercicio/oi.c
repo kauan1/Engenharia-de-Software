@@ -9,9 +9,16 @@ void div(float a, float b);
 
 int main(){
     float x, y;
+    char test;
     int n;
     printf("Digite os valores:\n");
-    scanf("%f %f",&x,&y);
+    scanf("%f %f%c",&x,&y,&test);
+    
+    //verifica a entrada de caracter
+    if(test != '\n'){
+        printf("Caracter invalido\n");
+        return 1;
+    }
     
     printf("Digite a opção desejada:\n");
     printf("0 - Soma\n");
