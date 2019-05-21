@@ -1,6 +1,6 @@
 #include<stdio.h>
-//Este é um programa de calculadora divididas em varias funções e
-//só sai do progrma quando o usuario escolher a opção de saida
+//Este Ã© um programa de calculadora divididas em varias funÃ§Ãµes e
+//sÃ³ sai do progrma quando o usuario escolher a opÃ§Ã£o de saida
 
 void som(float a, float b);
 void sub(float a, float b);
@@ -12,4 +12,8 @@ int main(){
     printf("Digite os valores:\n");
     scanf("%f %f",&x,&y);
     return 0;
+}
+
+int som (int x, int y){
+return x+y;
 }
