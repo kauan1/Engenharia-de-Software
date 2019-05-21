@@ -22,11 +22,11 @@ void som (float a, float b){
 printf ("Resultado = %f", a+b);
 }
 
-void sub(float x, float y){
-    printf ("Result = %.2f", x-y);
+void sub(float a, float b){
+    printf ("Result = %.2f", a-b);
 }
 
-void mul(float x, float y)
+void mul(float a, float b)
     {
-    printf ("Resultado = %f", x*y);
+    printf ("Resultado = %f", a*b);
     }
