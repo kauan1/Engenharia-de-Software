@@ -9,8 +9,34 @@ void div(float a, float b);
 
 int main(){
     float x, y;
+    int n;
     printf("Digite os valores:\n");
     scanf("%f %f",&x,&y);
+    
+    printf("Digite a opção desejada:\n");
+    printf("0 - Soma\n");
+    printf("1 - Subtração\n");
+    printf("2 - Multiplicação\n");
+    printf("3 - Divisão \n");
+    printf("4 - Sair\n");
+    scanf("%d",&n);
+    
+    switch
+    case 0:
+        
+        break;
+    case 1:
+        
+        break;
+    case 2:
+        
+        break;
+    case 3:
+        break;
+    case 4:
+    
+        break;
+    }
     return 0;
 }
 
