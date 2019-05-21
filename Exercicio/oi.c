@@ -17,3 +17,7 @@ int main(){
 void som (float a, float b){
 printf ("Resultado = %f", x+y);
 }
+
+void sub(float x, float y){
+    printf ("Result = %.2f", x-y);
+}
