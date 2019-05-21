@@ -9,8 +9,16 @@ void div(float a, float b);
 
 int main(){
     float x, y;
+    char test;
     printf("Digite os valores:\n");
-    scanf("%f %f",&x,&y);
+    scanf("%f %f%c",&x,&y,&test);
+    
+    //verifica se foi digitado algum caracter
+    if(test != '\n'){
+        printf("Caracter inválido\n");
+        return 1;
+    }
+    
     return 0;
 }
 
