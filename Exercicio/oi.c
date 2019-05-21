@@ -10,7 +10,9 @@ void div(float a, float b);
 int main(){
     float x, y;
     char test;
-    int n;
+    int n=0;
+    while(n!=4)
+    {
     printf("Digite os valores:\n");
     scanf("%f %f%c",&x,&y,&test);
     
@@ -30,20 +32,22 @@ int main(){
     
     switch
     case 0:
-        
+        som(x,y);
         break;
     case 1:
-        
+        sub(x,y);
         break;
     case 2:
-        
+        mul(x,y);
         break;
     case 3:
+        div(x,y);
         break;
     case 4:
-    
+        return 0;
         break;
     }
+}
     return 0;
 }
 
@@ -58,4 +62,8 @@ void sub(float a, float b){
 void mul(float a, float b)
     {
     printf ("Resultado = %f", a*b);
+    }
+void div(float a, float b)
+    {
+    printf ("Resultado = %f", a/b);
     }
