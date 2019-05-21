@@ -19,7 +19,7 @@ int main(){
 }
 
 void som (float a, float b){
-printf ("Resultado = %f", x+y);
+printf ("Resultado = %f", a+b);
 }
 
 void sub(float x, float y){
